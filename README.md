@@ -1,1 +1,19 @@
 # application-deployment-on-aws
+- Create instance on `AWS`
+- Generate and download aws-key
+- Open `cmd` or `GitBash` where `aws-key.pem` file located
+- run command `chmod 600 aws-key.pem`
+- After this run command `ssh -i aws-key ubuntu@(IP address of of your AWS instance)`
+- install jre run command `sudo apt install default-jre`
+- install jdk run command `sudo apt install default-jdk`
+- install git run command `sudo apt install git`
+- install database(mysql/postgresql)
+- for postgresql run command `sudo apt install postgressql`
+- to use postgresql run command `sudo -u postgres psql`
+- create database run command `create databse databaseName`
+- to exit from postgresql run `exit or \q`
+- create directory run command `mkdir directory-name`
+- clone project in your `AWS` instance 
+- run command `git clone url-of-your-repository`
+- go to your project directory
+- run `mvn`
